@@ -4,7 +4,7 @@ A data preprocessing pipeline applied to the **Beijing Multi-Site Air Quality Da
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -21,7 +21,7 @@ project/
 ├── visualizations.py              # Data visualizations
 └── README.md
 ```
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 | Tool | Purpose |
 |------|---------|
@@ -32,7 +32,7 @@ project/
 | seaborn | Enhanced chart styling |
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [UCI Machine Learning Repository — Dataset ID 501](https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data)
 - **Size:** 420,768 rows × 18 columns
@@ -41,7 +41,7 @@ project/
 
 ---
 
-## ⚙️ Preprocessing Pipeline
+##  Preprocessing Pipeline
 
 ### 1. Handling Missing Values
 - **Numeric columns** (PM2.5, PM10, SO2, NO2, CO, O3, TEMP, PRES, DEWP, RAIN, WSPM): Forward fill then backward fill, grouped by station. This preserves the temporal continuity of time-series data better than mean/median imputation.
@@ -56,7 +56,7 @@ project/
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 | Plot | Description |
 |------|-------------|
@@ -69,7 +69,7 @@ project/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 **1. Clone the repository**
 ```bash
